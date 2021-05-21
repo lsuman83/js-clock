@@ -1,0 +1,127 @@
+html {
+    background: url("beautiful-nature-photography-hd-background.jpg");
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    height: 50px;
+    color:aqua;
+    font-size: 3em;
+    text-align: center;
+}
+
+    .clock {
+        margin: 100px auto 0 auto;
+        border: 10px solid black;
+        border-radius: 50%;
+        height: 200px;
+        position: relative;
+        width: 200px;;
+    }
+
+       .clock-face {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    .hours {
+        color: white;
+        margin: 5px;
+        height: 100%;
+        font-size: 1.5em;
+    }
+        .twelve {
+            position: absolute;
+            margin-left: 85px;
+        }
+
+        .one {
+            position: absolute;
+            margin-left: 135px;
+            margin-top: 10px;;
+        }
+
+        .two {
+            position: absolute;
+            margin-left: 165px;
+            margin-top: 40px;
+        }
+
+        .three {
+            position: absolute;
+            margin-left: 175px;
+            margin-top: 80px;
+        }
+
+        .four {
+            position: absolute;
+            margin-left: 165px;
+            margin-top: 120px;
+        }
+
+        .five {
+            position: absolute;
+            margin-left: 135px;
+            margin-top: 155px;
+        }
+
+        .six {
+            position: absolute;
+            margin-left: 95px;
+            margin-top: 165px;
+        }
+
+        .seven {
+            position: absolute;
+            margin-left: 55px;
+            margin-top: 155px;
+        }
+
+        .eight {
+            position: absolute;
+            margin-left: 20px;
+            margin-top: 120px;
+        }
+
+        .nine {
+            position: absolute;
+            margin-left: 5px;
+            margin-top: 80px;
+        }
+
+        .ten {
+            position: absolute;
+            margin-left: 12px;
+            margin-top: 40px;
+        }
+
+        .eleven {
+            position: absolute;
+            margin-left: 45px;
+            margin-top: 10px;
+        }
+
+    .hand {
+        height: 6px;
+        width: 50%;
+        top: 45%;
+        position: absolute;
+        transform-origin: 100%;
+        transform: rotate(90deg);
+        transition: all 0.05s;
+        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+        background-color: gray;
+    }
+
+        .second-hand {
+            height: 3px;
+        }
+
+    
+       
